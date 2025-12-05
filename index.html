@@ -1,1 +1,275 @@
-welcome
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbdelRahim A. Elmadany, Ph.D. | NLP Research Scientist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a', /* Deep Midnight Blue */
+                        secondary: '#334155', /* Slate */
+                        accent: '#06b6d4', /* Electric Cyan */
+                        light: '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(to right, #06b6d4, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 bg-light antialiased">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-xl text-primary tracking-tight">A. Elmadany<span class="text-accent">.ai</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about" class="hover:text-accent transition-colors duration-300 font-medium">About</a>
+                        <a href="#research" class="hover:text-accent transition-colors duration-300 font-medium">Research</a>
+                        <a href="#publications" class="hover:text-accent transition-colors duration-300 font-medium">Publications</a>
+                        <a href="#awards" class="hover:text-accent transition-colors duration-300 font-medium">Awards</a>
+                        <a href="#contact" class="px-4 py-2 rounded-full bg-primary text-white hover:bg-accent transition-colors duration-300 font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-bg text-white pt-32 pb-24 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-accent uppercase bg-slate-800 rounded-full">
+                    Research Associate @ UBC
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    AbdelRahim A. <br>
+                    <span class="gradient-text">Elmadany, Ph.D.</span>
+                </h1>
+                <p class="text-lg text-gray-300 mb-8 max-w-lg leading-relaxed">
+                    Research Scientist at the Deep Learning & NLP Group. Specializing in Large Language Models (LLMs), Data Mining, and Low-Resource NLP for African and Arabic languages.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#publications" class="bg-accent text-white px-6 py-3 rounded-lg font-semibold hover:bg-cyan-600 transition shadow-lg shadow-cyan-500/30">
+                        View Publications
+                    </a>
+                    <a href="https://scholar.google.com" target="_blank" class="border border-gray-500 text-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition">
+                        Google Scholar
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center relative">
+                <div class="absolute inset-0 bg-accent blur-[100px] opacity-20 rounded-full"></div>
+                <div class="relative w-72 h-72 md:w-96 md:h-96 bg-gray-700 rounded-full overflow-hidden border-4 border-gray-600 shadow-2xl">
+                    <img src="path_to_your_photo.jpg" alt="AbdelRahim Elmadany" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold text-primary">30+</div>
+                    <div class="text-sm text-gray-500 mt-1">Top-Tier Papers (ACL, EMNLP)</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-primary">10+</div>
+                    <div class="text-sm text-gray-500 mt-1">Large-Scale Models (BERT, T5)</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-primary">Top 10</div>
+                    <div class="text-sm text-gray-500 mt-1">Global Projects (UNESCO/IRCAI)</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-primary">Ph.D.</div>
+                    <div class="text-sm text-gray-500 mt-1">Computer Science</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-light">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-primary">Research Focus</h2>
+                <div class="w-16 h-1 bg-accent mx-auto mt-4 rounded"></div>
+                <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                    My research lies at the intersection of NLP, Data Mining, and Scalable Data Management, aiming to democratize AI for underrepresented communities.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i class="fa-solid fa-brain text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Large Language Models</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Developing novel techniques to mine and manage massive-scale datasets for training LLMs. Creator of models like ARBERT, MARBERT, and SERENGETI.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                    <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-6">
+                        <i class="fa-solid fa-earth-africa text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Low-Resource NLP</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Pioneering benchmarks for African, Arabic, and Indigenous languages. Leading the "Voice of a Continent" initiative to map speech technology frontiers.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-6">
+                        <i class="fa-solid fa-database text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-3">Scalable Data Mining</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Analyzing billions of data points using PySpark and custom pipelines. Automating data cleaning and validation for high-stakes domains.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-primary">Selected Publications (2025)</h2>
+                    <p class="text-gray-500 mt-2">Recent work accepted in EMNLP and ACL</p>
+                </div>
+                <a href="#" class="text-accent font-semibold hover:text-blue-700">View All <i class="fa-solid fa-arrow-right ml-1"></i></a>
+            </div>
+
+            <div class="space-y-6">
+                <div class="group flex flex-col md:flex-row gap-6 p-6 rounded-xl border border-gray-100 hover:border-accent/30 hover:bg-blue-50/30 transition duration-300">
+                    <div class="flex-shrink-0 pt-1">
+                        <span class="text-sm font-bold bg-green-100 text-green-700 px-3 py-1 rounded-full">EMNLP 2025</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-primary group-hover:text-accent transition-colors">Voice of a Continent: Mapping Africa's Speech Technology Frontier</h3>
+                        <p class="text-gray-600 mt-2 text-sm italic">A. Elmadany, S. Kwon, H. Toyin, A. Inciarte, H. Aldarmaki, M. Abdul-Mageed</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-sm font-medium text-gray-500 hover:text-primary"><i class="fa-regular fa-file-pdf mr-1"></i> PDF</a>
+                            <a href="#" class="text-sm font-medium text-gray-500 hover:text-primary"><i class="fa-solid fa-code mr-1"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col md:flex-row gap-6 p-6 rounded-xl border border-gray-100 hover:border-accent/30 hover:bg-blue-50/30 transition duration-300">
+                    <div class="flex-shrink-0 pt-1">
+                        <span class="text-sm font-bold bg-blue-100 text-blue-700 px-3 py-1 rounded-full">ACL 2025</span>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <h3 class="text-xl font-bold text-primary group-hover:text-accent transition-colors">Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs</h3>
+                            <span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded border border-yellow-200"><i class="fa-solid fa-trophy mr-1"></i>Best Resource Paper</span>
+                        </div>
+                        <p class="text-gray-600 mt-2 text-sm italic">F. Alwajih, S. Magdy, A. Mekki... A. Elmadany... M. Abdul-Mageed</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-sm font-medium text-gray-500 hover:text-primary"><i class="fa-regular fa-file-pdf mr-1"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group flex flex-col md:flex-row gap-6 p-6 rounded-xl border border-gray-100 hover:border-accent/30 hover:bg-blue-50/30 transition duration-300">
+                    <div class="flex-shrink-0 pt-1">
+                        <span class="text-sm font-bold bg-blue-100 text-blue-700 px-3 py-1 rounded-full">ACL 2025</span>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-primary group-hover:text-accent transition-colors">Where Are We? Evaluating LLM Performance on African Languages</h3>
+                        <p class="text-gray-600 mt-2 text-sm italic">I. Adebara, H. Toyin... A. Elmadany, M. Abdul-Mageed</p>
+                        <div class="mt-4 flex space-x-4">
+                            <a href="#" class="text-sm font-medium text-gray-500 hover:text-primary"><i class="fa-regular fa-file-pdf mr-1"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 border-l-4 border-accent pl-4">Awards & Recognition</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-award text-accent text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Best Resource Paper Award</h3>
+                    <p class="text-gray-400 mb-2">ACL 2025 - Vienna, Austria</p>
+                    <p class="text-sm text-gray-300">For the "Palm" dataset: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs.</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-globe text-accent text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Top 10 Outstanding Projects</h3>
+                    <p class="text-gray-400 mb-2">IRCAI-UNESCO, May 2023</p>
+                    <p class="text-sm text-gray-300">Afrocentric-NLP ranked among the global Top 10 outstanding projects.</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-scroll text-accent text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Best Paper Award</h3>
+                    <p class="text-gray-400 mb-2">OSACT5, June 2022</p>
+                    <p class="text-sm text-gray-300">For "TURJUMAN: A Public Toolkit for Neural Arabic Machine Translation."</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
+                    <i class="fa-solid fa-server text-accent text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Research Grants</h3>
+                    <p class="text-gray-400 mb-2">Google & AMD</p>
+                    <p class="text-sm text-gray-300">Secured Google Education Research Grant (2025) and TPU/GPU compute grants for large-scale model training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">AbdelRahim A. Elmadany, Ph.D.</h4>
+                <p>Deep Learning and Natural Language Processing Group</p>
+                <p>University of British Columbia (UBC)</p>
+                <p>Vancouver, BC, Canada</p>
+            </div>
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">Contact</h4>
+                <p><i class="fa-solid fa-envelope mr-2"></i> a.elmadany@ubc.ca</p>
+                <p><i class="fa-solid fa-phone mr-2"></i> (+1) 604-442-4346</p>
+            </div>
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">Connect</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-2xl hover:text-white transition"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="text-2xl hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-2xl hover:text-white transition"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-slate-800 text-center text-sm">
+            &copy; 2025 AbdelRahim A. Elmadany. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
